@@ -1321,7 +1321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rp2040-devboard:SW_SPST_EVPBV"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -1341,6 +1341,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor link" "https://mou.sr/4aZdR1f"
+			(at 116.84 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
