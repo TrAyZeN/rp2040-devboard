@@ -2114,12 +2114,6 @@
 		(uuid "08f2c963-e7f8-457f-86cd-3e6cc3521b6e")
 	)
 	(junction
-		(at 48.26 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a23e1a2-d4eb-4c50-b13a-8160a6848f54")
-	)
-	(junction
 		(at 20.32 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2947,16 +2941,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 59.69) (xy 48.26 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fb0048f-08b9-4d2d-b6a7-7a9e2e209d7a")
-	)
-	(wire
-		(pts
 			(xy 175.26 124.46) (xy 171.45 124.46)
 		)
 		(stroke
@@ -2984,16 +2968,6 @@
 			(type default)
 		)
 		(uuid "9079bec1-35ca-4eb7-8ea7-f4ce281c2c65")
-	)
-	(wire
-		(pts
-			(xy 44.45 62.23) (xy 48.26 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "931b25e8-0230-49fb-9596-41dc6cd3f8c3")
 	)
 	(wire
 		(pts
@@ -3297,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 62.23) (xy 59.69 62.23)
+			(xy 44.45 62.23) (xy 59.69 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3394,16 +3368,6 @@
 			(type default)
 		)
 		(uuid "e1959be9-e2c5-4038-b2cb-6f0bec8692bd")
-	)
-	(wire
-		(pts
-			(xy 48.26 49.53) (xy 48.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e368bbdc-cf2f-4de4-84d9-6afd37159f41")
 	)
 	(wire
 		(pts
@@ -3614,6 +3578,16 @@
 			)
 		)
 		(uuid "2bf394b3-eb40-46ea-89fa-bf0f4177da20")
+	)
+	(text "There is already an on-chip pull-up resistor of 50k-80k"
+		(exclude_from_sim no)
+		(at 44.958 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40b9e57e-24aa-435b-943e-82d825987e28")
 	)
 	(text "R2, R3 should be placed close to the chip"
 		(exclude_from_sim no)
@@ -4337,7 +4311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12b19090-6b5f-4a27-88d7-134b599c1e64")
-		(property "Reference" "R403"
+		(property "Reference" "R402"
 			(at 99.06 91.44 90)
 			(effects
 				(font
@@ -4389,7 +4363,7 @@
 		(instances
 			(project "rp2040-devboard"
 				(path "/b920ba62-ae29-4be1-8493-2f85fc152395/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb"
-					(reference "R403")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -4593,76 +4567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 48.26 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "289c4f18-ddf5-4b8f-abda-14c95df93e0d")
-		(property "Reference" "R401"
-			(at 50.8 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TBD"
-			(at 50.8 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 46.482 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "896ef27b-315b-404c-ae44-cee0e5dd3a84")
-		)
-		(pin "2"
-			(uuid "92a40946-2ccd-4019-8d70-781c6cf6a27a")
-		)
-		(instances
-			(project "rp2040-devboard"
-				(path "/b920ba62-ae29-4be1-8493-2f85fc152395/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 41.91 0)
 		(unit 1)
@@ -4727,72 +4631,6 @@
 			(project "rp2040-devboard"
 				(path "/b920ba62-ae29-4be1-8493-2f85fc152395/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb"
 					(reference "C407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30e8f192-7b26-4929-a935-643e85bcb9e1")
-		(property "Reference" "#PWR05"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "765c2c92-650a-477c-a9c6-19be8368c08f")
-		)
-		(instances
-			(project "rp2040-devboard"
-				(path "/b920ba62-ae29-4be1-8493-2f85fc152395/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a1ba592-a990-43b8-aa5b-b9201963e543")
-		(property "Reference" "R402"
+		(property "Reference" "R401"
 			(at 99.06 81.28 90)
 			(effects
 				(font
@@ -4995,7 +4833,7 @@
 		(instances
 			(project "rp2040-devboard"
 				(path "/b920ba62-ae29-4be1-8493-2f85fc152395/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb"
-					(reference "R402")
+					(reference "R401")
 					(unit 1)
 				)
 			)

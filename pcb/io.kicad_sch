@@ -1229,26 +1229,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 82.55) (xy 212.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f7706b-c0d7-408f-a45b-59feb45d0cb7")
-	)
-	(wire
-		(pts
-			(xy 201.93 85.09) (xy 212.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad85a99-0079-4cfe-91e5-6191137db8ac")
-	)
-	(wire
-		(pts
 			(xy 212.09 100.33) (xy 209.55 100.33)
 		)
 		(stroke
@@ -1276,6 +1256,16 @@
 			(type default)
 		)
 		(uuid "11d475ea-1126-412b-b58b-0011029c089f")
+	)
+	(wire
+		(pts
+			(xy 201.93 85.09) (xy 212.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d41462e-253a-4dad-8c52-e6412c8ab026")
 	)
 	(wire
 		(pts
@@ -1319,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339cac5b-3a8b-4999-8912-ac24640d7356")
+	)
+	(wire
+		(pts
 			(xy 201.93 97.79) (xy 212.09 97.79)
 		)
 		(stroke
@@ -1356,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "3f1b3887-a908-490f-8be9-13aefc6a4355")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bfa79b-097a-44ad-a8d1-7694ee483b38")
 	)
 	(wire
 		(pts
@@ -1549,16 +1559,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 77.47) (xy 212.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2188d4a-56dc-4dda-b17f-a1868be95825")
-	)
-	(wire
-		(pts
 			(xy 92.71 67.31) (xy 101.6 67.31)
 		)
 		(stroke
@@ -1679,16 +1679,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 80.01) (xy 212.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b557bc-f4c4-40f1-ae79-8467c1a235d6")
-	)
-	(wire
-		(pts
 			(xy 92.71 82.55) (xy 101.6 82.55)
 		)
 		(stroke
@@ -1747,6 +1737,16 @@
 		)
 		(uuid "ef96bcaa-1000-4419-af4b-93ee746b42e1")
 	)
+	(wire
+		(pts
+			(xy 201.93 82.55) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99153c0-1d9d-4eff-8b6d-1e419c2fa8c0")
+	)
 	(hierarchical_label "GPIO2"
 		(shape input)
 		(at 92.71 74.93 180)
@@ -1797,7 +1797,7 @@
 	)
 	(hierarchical_label "GPIO28_ADC2"
 		(shape input)
-		(at 201.93 82.55 180)
+		(at 201.93 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1821,7 +1821,7 @@
 	)
 	(hierarchical_label "GPIO26_ADC0"
 		(shape input)
-		(at 201.93 77.47 180)
+		(at 201.93 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1833,7 +1833,7 @@
 	)
 	(hierarchical_label "GPIO29_ADC3"
 		(shape input)
-		(at 201.93 85.09 180)
+		(at 201.93 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2061,7 +2061,7 @@
 	)
 	(hierarchical_label "GPIO27_ADC1"
 		(shape input)
-		(at 201.93 80.01 180)
+		(at 201.93 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
