@@ -178,7 +178,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -441,7 +445,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "rp2040-devboard"
+    ]
   },
   "meta": {
     "filename": "rp2040-devboard.kicad_pro",
