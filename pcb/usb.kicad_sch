@@ -2233,9 +2233,8 @@
 		(uuid "ffa6d481-1d1c-443c-ad52-fe3735e88545")
 	)
 	(hierarchical_label "USB_D+"
-		(shape input)
+		(shape output)
 		(at 149.86 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2243,11 +2242,21 @@
 			(justify left)
 		)
 		(uuid "3bc0de01-d40c-4c9f-bd9e-8736671ba2cf")
+		(property "Netclass" "USB data"
+			(at 148.844 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "USB_D-"
-		(shape input)
+		(shape output)
 		(at 149.86 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,6 +2264,17 @@
 			(justify left)
 		)
 		(uuid "86814f4d-cb33-4420-ab48-4b71dad9a8f2")
+		(property "Netclass" "USB data"
+			(at 148.336 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")

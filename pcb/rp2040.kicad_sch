@@ -2571,16 +2571,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 120.65 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ee7f6a-7d64-4889-94bc-87497f16c118")
-	)
-	(wire
-		(pts
 			(xy 175.26 91.44) (xy 171.45 91.44)
 		)
 		(stroke
@@ -3161,16 +3151,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 95.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e5cb23-1f88-4300-9f44-294ddb0974f6")
-	)
-	(wire
-		(pts
 			(xy 38.1 62.23) (xy 44.45 62.23)
 		)
 		(stroke
@@ -3238,6 +3218,16 @@
 			(type default)
 		)
 		(uuid "cf7b23a7-3500-4450-a522-6749bec3a562")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d045206c-6187-4077-ae4d-1f04faa8693a")
 	)
 	(wire
 		(pts
@@ -3391,13 +3381,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 95.25 88.9)
+			(xy 83.82 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ae9c29-ffaa-4905-8c0b-675480783523")
+		(uuid "e84f161d-7429-4cb7-ab38-b48dbb9d38dd")
 	)
 	(wire
 		(pts
@@ -3418,6 +3408,16 @@
 			(type default)
 		)
 		(uuid "eef0bfe2-7bea-44f2-adf9-4c0516c3a441")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef96497-7e9d-4217-b0c3-309ef4810e0d")
 	)
 	(wire
 		(pts
@@ -3619,6 +3619,28 @@
 		)
 		(uuid "fba3d0b7-7a73-488a-8a19-a098244ff9a6")
 	)
+	(label "USB_TERM_D-"
+		(at 104.14 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13686ab1-a9f5-4d8c-b357-068de691d2d6")
+		(property "Netclass" "USB data"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(label "XOUT"
 		(at 116.84 134.62 180)
 		(fields_autoplaced yes)
@@ -3674,6 +3696,27 @@
 		)
 		(uuid "9989c639-57fc-41f1-b29a-0229cdb6d080")
 	)
+	(label "USB_TERM_D+"
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9afe164e-04a6-4ba0-b3b6-629d0cc41d4c")
+		(property "Netclass" "USB data"
+			(at 104.394 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(label "XIN"
 		(at 80.01 124.46 0)
 		(fields_autoplaced yes)
@@ -3687,7 +3730,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 83.82 86.36 180)
+		(at 83.82 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3843,7 +3886,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 83.82 88.9 180)
+		(at 83.82 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

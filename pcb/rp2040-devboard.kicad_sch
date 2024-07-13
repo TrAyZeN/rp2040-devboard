@@ -11,6 +11,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 101.6 63.5) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b550cf-29fc-4262-85d0-1ed481559a7b")
+	)
+	(wire
+		(pts
 			(xy 168.91 68.58) (xy 187.96 68.58)
 		)
 		(stroke
@@ -271,16 +281,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 119.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e83a53-a4ad-4982-a405-3dcf315784ab")
-	)
-	(wire
-		(pts
 			(xy 168.91 88.9) (xy 187.96 88.9)
 		)
 		(stroke
@@ -361,16 +361,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 119.38 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef5551f1-e3ea-493e-8954-42d8329084dc")
-	)
-	(wire
-		(pts
 			(xy 168.91 66.04) (xy 187.96 66.04)
 		)
 		(stroke
@@ -378,6 +368,16 @@
 			(type default)
 		)
 		(uuid "f41caaa9-076a-4037-9593-a2fa5b2631fb")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f866a7c5-8e18-4dbb-b75e-d04a0b20e6ed")
 	)
 	(wire
 		(pts
@@ -634,7 +634,7 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 119.38 60.96 180)
+			(at 119.38 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +644,7 @@
 			(uuid "bfba0154-336c-4cc6-bfa9-44f822d2831f")
 		)
 		(pin "USB_D+" input
-			(at 119.38 63.5 180)
+			(at 119.38 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -117,7 +117,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.15,
-        "min_connection": 0.0,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -182,7 +182,8 @@
         0.15,
         0.2,
         0.25,
-        0.35
+        0.35,
+        0.76
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -471,6 +472,40 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.76,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,9 +553,11 @@
       "/IO/GPIO9": "rgb(58, 137, 255)",
       "/IO/SWCLK": "rgb(58, 137, 255)",
       "/IO/SWD": "rgb(58, 137, 255)",
-      "/USB/USB_D+": "rgb(0, 255, 89)",
-      "/USB/USB_D-": "rgb(0, 255, 89)",
+      "/USB/USB_D+": "rgb(56, 255, 82)",
+      "/USB/USB_D-": "rgb(56, 255, 82)",
       "/rp2040/RUN": "rgb(58, 137, 255)",
+      "/rp2040/USB_TERM_D+": "rgb(56, 255, 82)",
+      "/rp2040/USB_TERM_D-": "rgb(56, 255, 82)",
       "/rp2040/XIN": "rgb(255, 83, 10)",
       "/rp2040/XOUT": "rgb(255, 83, 10)",
       "GND": "rgb(47, 47, 47)",
@@ -530,11 +567,24 @@
       "Net-(U401-USB_DP)": "rgb(0, 255, 89)",
       "VBUS": "rgb(255, 0, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB/USB_D+": "USB data",
+      "/USB/USB_D-": "USB data",
+      "/rp2040/USB_TERM_D+": "USB data",
+      "/rp2040/USB_TERM_D-": "USB data"
+    },
     "netclass_patterns": [
       {
+        "netclass": "GPIO",
+        "pattern": "/IO/GPIO*"
+      },
+      {
+        "netclass": "USB data",
+        "pattern": "/USB/USB_D*"
+      },
+      {
         "netclass": "Default",
-        "pattern": "/USB_"
+        "pattern": "/rp2040/USB_TERM_D*"
       }
     ]
   },
