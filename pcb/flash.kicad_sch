@@ -1076,6 +1076,16 @@
 		)
 		(uuid "eb846c3f-9208-44f5-91cd-4cf271edeffc")
 	)
+	(text "QSPI_SS is pulled-up by default by rp2040"
+		(exclude_from_sim no)
+		(at 107.696 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10a02e26-9c19-4d91-a228-9206c140e1fa")
+	)
 	(text "C13 should be placed close to VOUT\n+ should be ceramic"
 		(exclude_from_sim no)
 		(at 172.466 73.914 0)
@@ -1542,7 +1552,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b1d33b4c-bc96-4f71-a7e4-8a7700e75b56")
 		(property "Reference" "R501"
@@ -1554,7 +1564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNF"
 			(at 134.62 88.8999 0)
 			(effects
 				(font

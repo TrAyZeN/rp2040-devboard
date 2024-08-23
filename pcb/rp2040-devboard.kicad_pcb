@@ -1610,6 +1610,19 @@
 				)
 			)
 		)
+		(property "Distributor link" "https://mou.sr/3yOwNm4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95738985-0114-40d4-a89b-305ecb835324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "QFN*1EP*7x7mm?P0.4mm*")
 		(path "/f6b75d06-e2a8-4cde-87f9-edbb0b8d1ddb/b8c91115-fc71-4012-a5a8-07ca710fb265")
 		(sheetname "rp2040")
@@ -3501,7 +3514,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1u"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "707e5bf6-323d-4b0b-a964-b47da9ea637c")
@@ -6486,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5a7c644a-38b5-42b1-912b-5e1b73e0ef76")
@@ -6540,7 +6553,7 @@
 		(path "/48cf85d8-1191-475f-b46f-33b4f0843849/b1d33b4c-bc96-4f71-a7e4-8a7700e75b56")
 		(sheetname "Flash")
 		(sheetfile "flash.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
